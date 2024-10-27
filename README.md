@@ -44,7 +44,7 @@
 #### Отправка GET-запроса (в `MainActivity`)
 private fun sendGetRequest() {
     val request = Request.Builder()
-        .url("http://10.0.2.2:8000/api/users")
+        .url(http://0.0.0.0:8080)
         .build()
 
     client.newCall(request).enqueue(object : Callback {
@@ -63,7 +63,7 @@ private fun sendPostRequest() {
     val requestBody = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), json)
 
     val request = Request.Builder()
-        .url("http://10.0.2.2:8000/api/users")
+        .url(http://0.0.0.0:8080)
         .post(requestBody)
         .build()
 
