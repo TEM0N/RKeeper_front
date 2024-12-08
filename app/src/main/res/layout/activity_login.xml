@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    android:padding="16dp">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        app:queryHint="Search..." />
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textColor="@color/bright_purple"
+        android:paddingBottom="24dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/change_language_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/baseline_language_24"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign"
+        android:layout_marginTop="24dp"
+        android:onClick="Log_in"
+        android:backgroundTint="@color/purple"/>
+
+    <TextView
+        android:id="@+id/onRegisterTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dont_have_ac"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/blue"
+        android:clickable="true"
+        android:onClick="register"
+        />
+</LinearLayout>

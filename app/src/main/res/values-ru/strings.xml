@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Хранитель</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Описание</string>
+    <string name="code">Введите код</string>
+    <string name="time">Остались: 05:00</string>
+    <string name="sign">Вход</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="rep_password">Повтори пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="have_ac">Есть аккаунт? Вход</string>
+    <string name="home">Домой</string>
+    <string name="back">Назад</string>
+    <string name="recipes">Рецепты</string>
+    <string name="some_words">Пару слов про пользователя</string>
+    <string name="rating">Рейтинг</string>
+    <string name="admin_nick">Admin Nick</string>
+    <string name="change_photo">Изменить фото</string>
+    <string name="change_mail">Сменить почту</string>
+    <string name="dont_have_ac">Нет аккаунта?</string>
+    <string name="type_mes">Введите сообщение</string>
+    <string name="send">Отправить</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RKeeper</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="code">Enter code</string>
+    <string name="time">Left: 05:00</string>
+    <string name="sign">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="rep_password">Repeat password</string>
+    <string name="register">Register</string>
+    <string name="have_ac">Do you have an account? Log In</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="recipes">Recipes</string>
+    <string name="some_words">Some words about user</string>
+    <string name="rating">Rating</string>
+    <string name="admin_nick">Admin Nick</string>
+    <string name="change_photo">Change photo</string>
+    <string name="change_mail">Change mail</string>
+    <string name="dont_have_ac">Dont have an account?</string>
+    <string name="type_mes">Type your message</string>
+    <string name="send">Send</string>
+</resources>

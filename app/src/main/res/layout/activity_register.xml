@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/bright_purple"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="24dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/change_language_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/baseline_language_24"
+        />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/passsword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/repeat_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rep_password"
+        android:inputType="textPassword"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:backgroundTint="@color/purple"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="@string/have_ac"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/blue"
+        android:clickable="true"
+        android:onClick="login"
+        />
+</LinearLayout>
